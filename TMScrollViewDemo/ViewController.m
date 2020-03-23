@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  WYScrollViewDemo
+//  TMScrollViewDemo
 //
 //  Created by Apple on 2017/7/6.
 //  Copyright © 2017年 Apple. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "WYScrollView.h"
+#import "TMScrollView.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    WYScrollView *scrollView = [[WYScrollView alloc] initWithFrame:CGRectMake(0, 100,self.view.frame.size.width,150)];
+    TMScrollView *scrollView = [[TMScrollView alloc] initWithFrame:CGRectMake(0, 100,self.view.frame.size.width,150)];
     [self.view addSubview:scrollView];
     
     

@@ -1,21 +1,21 @@
 //
-//  WYScrollView.m
-//  WYScrollViewDemo
+//  TMScrollView.m
+//  TMScrollViewDemo
 //
 //  Created by Apple on 2017/7/6.
 //  Copyright © 2017年 Apple. All rights reserved.
 //
 
-#import "WYScrollView.h"
+#import "TMScrollView.h"
 
-@interface WYScrollView () <UIScrollViewDelegate>
+@interface TMScrollView () <UIScrollViewDelegate>
 @property (nonatomic , strong) UIScrollView *scrollView;
 @property (nonatomic , strong) NSArray *scrollSubViews;
 @property (nonatomic , strong) UIPageControl *page;
 @end
 
 
-@implementation WYScrollView
+@implementation TMScrollView
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

@@ -1,6 +1,6 @@
 //
-//  WYScrollViewDemoTests.m
-//  WYScrollViewDemoTests
+//  TMScrollViewDemoTests.m
+//  TMScrollViewDemoTests
 //
 //  Created by Apple on 2017/7/6.
 //  Copyright © 2017年 Apple. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface WYScrollViewDemoTests : XCTestCase
+@interface TMScrollViewDemoTests : XCTestCase
 
 @end
 
-@implementation WYScrollViewDemoTests
+@implementation TMScrollViewDemoTests
 
 - (void)setUp {
     [super setUp];
